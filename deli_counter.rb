@@ -20,3 +20,8 @@ katz_deli.push(newbie)
 spot = katz_deli.index(newbie) + 1
 puts "Welcome, #{newbie}. You are number #{spot} in line."
 end
+
+def now_serving(katz_deli)
+  puts "Currently serving #{katz_deli[0]}."
+  katz_deli.shift
+end
