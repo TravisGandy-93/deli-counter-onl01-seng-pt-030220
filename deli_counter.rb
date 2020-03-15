@@ -18,5 +18,5 @@ end
 def take_a_number(katz_deli,newbie)
 katz_deli.push(newbie)
 spot = katz_deli.index(newbie) + 1
-puts "Welcome, #{newbie}. You are number #{spot} "
+puts "Welcome, #{newbie}. You are number #{spot} in line."
 end
