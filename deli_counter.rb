@@ -17,4 +17,5 @@ end
 
 def take_a_number(katz_deli,newbie)
 katz_deli.push(newbie)
+puts "Welcome, #{newbie}. You are number "
 end
